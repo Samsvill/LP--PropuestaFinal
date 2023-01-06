@@ -6,8 +6,12 @@ cervantes = 'https://www.cervantesvirtual.com/buscador/?tipo=palabras_todas&busq
 datosCervantes = URI.open(cervantes)
 cervantesParseado = Nokogiri::HTML(datosCervantes.read)
 lista_items = cervantesParseado.css('.contenido').css('.col-lg-9').css('.item-obra')
+docu = CSV.open('libros.csv','a')
 
 lista_items.css('.datos-item-obra').each do |itemObra|
     strip = itemObra.css('.titulo').inner_text.split("-")
-    puts strip[0]
+    prueba = itemObra.css('dd').inner_text
+    titulos = strip[0].lstrip().split("/")
+    docu<<[titulos[0]]
+    
 end
