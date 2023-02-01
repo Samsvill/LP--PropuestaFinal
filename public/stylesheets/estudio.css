@@ -1,0 +1,41 @@
+
+div.cuerpoEstudio{
+  padding: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-content: center;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210827/pngtree-curve-color-block-watercolor-splash-beige-background-image_771090.jpg');
+  background-size: auto;
+  grid-gap:1rem;
+  
+}
+.fondEstudio{
+  text-align: center;
+align-self: center;
+background-color: black;
+padding: 30px;
+padding-left: 30px;
+opacity: 0.5;
+border-radius:1.5em
+}
+h1{
+  color:white;
+  font-family: 'Charm', cursive;
+
+}
+.estudios{
+  font-size: 17px;
+  color:white
+}
+li{
+  font-size: 17px;
+  color:white;
+
+}
+table{
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color:white
+
+}

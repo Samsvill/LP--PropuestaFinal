@@ -1,0 +1,22 @@
+
+h1{
+  font-family: 'Charm', cursive;
+  font-size: 45px;
+}
+h2{
+  font-family: 'Charm', cursive;
+}
+.texto{
+  margin-top: 30px;
+  font-family: 'Charm', cursive;
+
+}
+.frase{
+  font-family: 'Qwigley', cursive;
+  font-size: 25px;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.6);
+    margin-top: 50px;
+
+  }
+
